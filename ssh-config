@@ -1,0 +1,2 @@
+IdentityFile /home/joehof/.ssh/my_private_key.rsa
+AddKeysToAgent yes
