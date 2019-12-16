@@ -22,3 +22,13 @@ choose vim, vim.basic or vim.tiny
 Based on Intellij's Eclipse settings.
 Import telia-intellij.settings from IntelliJ.
 
+# jenv setup on mac:
+
+add to shell .rc or .profile file.
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+To get maven to pick up jenv version
+
+$ jenv enable-plugin maven
